@@ -1,0 +1,28 @@
+SYSTEM GUIDE
+
+PHP/Web is the Hospital Management System.
+It handles hospital-side records:
+- patients
+- doctors
+- appointments
+- admissions
+- services and charges
+- invoice monitoring
+
+C# Windows Forms is the Billing and Invoice System.
+It handles billing-side work:
+- selecting patients
+- selecting hospital services
+- adding custom billing items
+- calculating subtotal, discount, tax, total, paid amount, and balance
+- saving invoices
+- viewing invoice records
+- updating invoice payment amount
+
+CONNECTION FLOW:
+
+C# Billing System -> PHP API -> SQLite Database
+
+PHP Hospital Management System -> SQLite Database
+
+When the billing staff saves an invoice in C#, the invoice appears in the PHP Hospital Management invoice monitor.

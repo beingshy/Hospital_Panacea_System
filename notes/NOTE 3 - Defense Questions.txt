@@ -1,0 +1,61 @@
+DEFENSE QUESTIONS WITH ANSWERS
+
+1. What is the role of the PHP system?
+PHP serves as the Hospital Management System for admin users.
+
+2. What is the role of the C# system?
+C# serves as the Billing and Invoice System.
+
+3. What database is used?
+SQLite is used.
+
+4. How are the systems connected?
+The C# system connects to PHP through api.php.
+
+5. Does C# directly connect to SQLite?
+No. C# connects through the PHP API.
+
+6. What records can PHP manage?
+Patients, doctors, appointments, admissions, services, and invoice monitoring.
+
+7. What records can C# manage?
+Invoices, invoice items, and payment updates.
+
+8. What happens when C# saves an invoice?
+The PHP API stores it in SQLite and the PHP admin can view it.
+
+9. What is the purpose of hospital services?
+They are predefined charges that can be added to invoices.
+
+10. Why use SQLite?
+It is simple, local, and does not require MySQL setup.
+
+11. What is the default hospital admin account?
+admin@hospital.test / admin123
+
+12. What is the default billing account?
+billing@hospital.test / billing123
+
+13. What is subtotal?
+Subtotal is the total amount before discount and tax.
+
+14. What is balance?
+Balance is total amount minus amount paid.
+
+15. What payment statuses are used?
+Unpaid, Partial, and Paid.
+
+16. What is the API URL?
+http://localhost:8000/api.php
+
+17. Why is login separated by role?
+Admin uses the PHP hospital system while billing staff uses the C# billing system.
+
+18. What makes the systems connected?
+They share the same SQLite database through the PHP API.
+
+19. What can improve this system?
+Receipt printing, insurance claims, official reports, and role permissions.
+
+20. What is the main purpose of the pair?
+To connect hospital operations with billing and invoice processing.

@@ -1,0 +1,21 @@
+PANACEA THEME UPDATE
+
+The system was restyled using the uploaded Panacea hospital dashboard image as a visual guide.
+
+What changed:
+- PHP admin login changed to a clean light hospital style.
+- PHP dashboard uses a soft blue/white clinical dashboard theme.
+- PHP sidebar uses light patient-management style navigation.
+- PHP cards, tables, buttons, inputs, and badges were restyled.
+- C# billing login was restyled to match the same hospital theme.
+- C# billing workspace now uses a light hospital-style sidebar, white cards, blue accents, and readable grids.
+- The existing SQLite database, API endpoints, login accounts, and CRUD logic were not changed.
+
+Run PHP inside php-api:
+php -S localhost:8000
+
+Open PHP:
+http://localhost:8000/index.php
+
+Open C#:
+csharp\HospitalInvoiceBillingApp.sln

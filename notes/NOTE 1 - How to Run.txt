@@ -1,0 +1,37 @@
+HOW TO RUN THE SYSTEM
+
+1. Extract the ZIP file.
+
+2. Open the php-api folder.
+
+3. Start the PHP server:
+
+   php -S localhost:8000
+
+   If php is not found:
+
+   /c/xampp/php/php.exe -S localhost:8000
+
+4. Open the Hospital Management System:
+
+   http://localhost:8000/index.php
+
+5. Login as admin:
+
+   admin@hospital.test
+   admin123
+
+6. Open Visual Studio.
+
+7. Open:
+
+   csharp\HospitalInvoiceBillingApp.sln
+
+8. Build > Rebuild Solution.
+
+9. Press F5.
+
+10. Login to Billing System:
+
+   billing@hospital.test
+   billing123
