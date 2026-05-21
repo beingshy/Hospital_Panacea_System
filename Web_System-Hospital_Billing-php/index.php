@@ -1,4 +1,5 @@
 <?php
+// hospital admin dashboard with sidebar navigation
 $_SESSION['user'] = $user;
 session_start();
 $dbFile = __DIR__ . '/hospital_billing.sqlite';
