@@ -113,6 +113,7 @@ button{
     margin-bottom:14px;
     font-weight:800;
 }
+/* admin login interface update*/
 </style></head><body><div class="login-card"><div class="brand">H+</div><h1>Panacea Admin</h1><p>Hospital operations and patient records</p><?php if($message): ?><div class="msg"><?=htmlspecialchars($message)?></div><?php endif; ?><form method="post"><input type="hidden" name="form_type" value="login"><label>Email</label><input name="email" value="admin@hospital.test"><label>Password</label><input type="password" name="password" value="admin123"><button>Sign In</button></form></div></body></html>
 <?php exit; endif;
 if($_SERVER['REQUEST_METHOD']==='POST'){
