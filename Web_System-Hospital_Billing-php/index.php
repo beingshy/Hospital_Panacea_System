@@ -1,4 +1,5 @@
 <?php
+$_SESSION['user'] = $user;
 session_start();
 $dbFile = __DIR__ . '/hospital_billing.sqlite';
 function db(){
